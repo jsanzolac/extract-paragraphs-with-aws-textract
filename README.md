@@ -13,4 +13,4 @@ UPCOMING FEATURES:
 - Export data in different formats.
 - AWS CloudFormation template for a serverless architecture to execute the functions when a new object is uploaded in your S3 bucket.
 
-*Please feel free to suggest new features or improvements to the current code. <3*
+**Please feel free to suggest new features or improvements to the current code. <3**
