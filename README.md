@@ -1,5 +1,5 @@
 # extract-paragraphs-with-aws-textract
-Since AWS Textrac does not have a native function to extract paragraphs, this repository provides a set of ad hoc functions in Python 3.X. built on top of the AWS Python SDK (boto3) to extract paragraphs from AWS Textract responses.
+Since AWS Textract does not have a native function to extract paragraphs, this repository provides a set of ad hoc functions in Python 3.X. built on top of the AWS Python SDK (boto3) to extract paragraphs from AWS Textract responses.
 
 PLEASE NOTE THAT:
 
