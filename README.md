@@ -10,6 +10,6 @@ PLEASE NOTE THAT:
 UPCOMING FEATURES:
 
 - Address abstract cases with the paragrpah_constructor function. 
-- Export data in different formats
-
+- Export data in different formats.
+- AWS Cloudformation template for a serverless architecture to execute the functions.
 Please feel free to suggest new features or improvements to the current code.
