@@ -13,4 +13,4 @@ UPCOMING FEATURES:
 - Upload pdf files from local directory
 - Export data in different formats
 
-Please feel free to suggest new features or improvents to the current code.
+Please feel free to suggest new features or improvements to the current code.
