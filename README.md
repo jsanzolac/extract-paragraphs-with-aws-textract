@@ -1,10 +1,11 @@
 # extract-paragraphs-with-aws-textract
-Since AWS Textract does not have a native function to extract paragraphs, this repository provides a set of ad hoc functions in Python 3.X. built on top of the AWS Python SDK (boto3) to extract paragraphs from AWS Textract responses.
+Since AWS Textract (the AWS OCR service) does not have a native function to extract paragraphs, this repository provides a set of Python 3.X functions built on top of the AWS Python SDK (boto3) to extract paragraphs from AWS Textract responses.
 
 PLEASE NOTE THAT:
 
 1. It is assumed that your client has the neccesary IAM permissions to access the different AWS resources required.
 2. Since AWS Textract analyze PDF files by running asynchronous operations, the current version assumes that you've already created an s3 bucket and that the PDF files are already stored there. If not, please go to the boto3 docs to know how to create a bucket as well as upload files.
+3. The paragraph_constructor function is built ad hoc for my use case. You may have to adapt it based on the space between lines in your data.
 
 UPCOMING FEATURES:
 
