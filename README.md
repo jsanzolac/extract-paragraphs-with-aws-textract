@@ -4,13 +4,11 @@ Since AWS Textract does not have a native function to extract paragraphs, this r
 PLEASE NOTE THAT:
 
 1. It is assumed that your client has the neccesary IAM permissions to access the different AWS resources required.
-2. Since AWS Textract analyze PDF files by running asynchronous operations, the current version assumes that you've already created an s3 bucket and that the PDF files are already stored there. 
+2. Since AWS Textract analyze PDF files by running asynchronous operations, the current version assumes that you've already created an s3 bucket and that the PDF files are already stored there. If not, please go to the boto3 docs to know how to create a bucket as well as upload files.
 
 UPCOMING FEATURES:
 
 - Address abstract cases with the paragrpah constructor function. 
-- Create a bucket
-- Upload pdf files from local directory
 - Export data in different formats
 
 Please feel free to suggest new features or improvements to the current code.
