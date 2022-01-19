@@ -5,11 +5,11 @@ PLEASE NOTE THAT:
 
 1. It is assumed that your client has the neccesary IAM permissions to access the different AWS resources required.
 2. Since AWS Textract analyze PDF files by running asynchronous operations, the current version assumes that you've already created an s3 bucket and that the PDF files are already stored there. If not, please go to the boto3 docs to know how to create a bucket as well as upload files.
-3. The paragraph_constructor function is built ad hoc for my use case. You may have to adapt it based on the space between lines in your data.
+3. The paragraph_constructor is an ad hoc function for my use case. You may have to adapt it based on the space between lines in your data.
 
 UPCOMING FEATURES:
 
-- Address abstract cases with the paragrpah constructor function. 
+- Address abstract cases with the paragrpah_constructor function. 
 - Export data in different formats
 
 Please feel free to suggest new features or improvements to the current code.
